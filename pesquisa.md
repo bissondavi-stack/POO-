@@ -1,4 +1,7 @@
- Como o C# se conecta ao banco?
+como o c# trabalha com o banco de dados?
+de forma simples, no codigo do c# vao ter conexoes e comados aonde o c# e o MySql vao se comunicar e o c# vai mandar as informaçoes para o banco de dados, as conexoes servem para a comuniaçao entre o c# e o banco de dados, os comandos vai permitir que voce possa realizar açoes junto do MySql
+
+Como o C# se conecta ao banco?
 O C# usa um "conector" de código. Você cria um objeto de conexão no código, passa o endereço do banco para ele e chama o comando .Open() para abrir a porta de comunicação.
  
 Qual biblioteca/driver é utilizado?
