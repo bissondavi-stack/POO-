@@ -68,6 +68,12 @@ O projeto utiliza parâmetros SQL, como @titulo, @genero e @id, para enviar valo
 
 O MySqlDataReader é utilizado para ler os resultados das consultas SELECT.
 
+Como usar o filmes.csproj
+1. Abra o terminal na pasta do projeto.
+3. Execute:
+dotnet restore
+dotnet run
+
 A conexão com o banco de dados depende de o MySQL estar instalado e funcionando corretamente.
 
 Também é necessário configurar a string de conexão com o usuário, senha e nome do banco de dados corretos.
